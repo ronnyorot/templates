@@ -1,7 +1,15 @@
 environments:
-  rootService1:
+  rootService:
     name: nullService1
     templateName: 'null resource'
-  rootService2:
+  childService:
     name: nullService2
     templateName: 'null resource'
+    needs:
+      - rootService
+  grandChildService:
+    name: sleepService
+    templateName: 'sleep null resource'
+    needs:
+      - childService
+
