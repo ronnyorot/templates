@@ -7,9 +7,9 @@ environments:
     templateName: 'null resource 2'
     needs:
       - rootService
-  grandChildService:
-    name: sleepService
-    templateName: 'sleep null resource'
+  grandChildService2:
+    name: nullService3
+    templateName: 'null resource 3'
     needs:
       - childService
 
