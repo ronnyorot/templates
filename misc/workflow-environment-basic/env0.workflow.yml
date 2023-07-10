@@ -4,7 +4,7 @@ environments:
     templateName: 'null resource'
   childService:
     name: nullService2
-    templateName: 'null resource'
+    templateName: 'null resource 2'
     needs:
       - rootService
   grandChildService:
