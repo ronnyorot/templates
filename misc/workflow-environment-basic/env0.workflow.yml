@@ -7,9 +7,9 @@ environments:
     templateName: 'null resource 2'
     needs:
       - rootService
-  grandChildService:
-    name: nullService3
-    templateName: 'null resource 3'
+  grandChildService2:
+    name: faultylService
+    templateName: 'faulty resource'
     needs:
       - childService
 settings:
