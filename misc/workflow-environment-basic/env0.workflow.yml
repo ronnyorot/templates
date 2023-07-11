@@ -7,9 +7,11 @@ environments:
     templateName: 'null resource 2'
     needs:
       - rootService
-  grandChildService3:
-    name: faultyService
-    templateName: 'null resource faulty'
+  grandChildService4:
+    name: nullService4
+    templateName: 'null resource 3'
     needs:
       - childService
+settings:
+    environmentRemovalStrategy: destroy | detach
 
