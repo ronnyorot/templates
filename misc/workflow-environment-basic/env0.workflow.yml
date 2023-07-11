@@ -13,5 +13,5 @@ environments:
     needs:
       - childService
 settings:
-    environmentRemovalStrategy: destroy | detach
+    environmentRemovalStrategy: destroy
 
