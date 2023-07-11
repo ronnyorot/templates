@@ -8,8 +8,8 @@ environments:
     needs:
       - rootService
   grandChildService:
-    name: sleepService
-    templateName: 'sleep null resource'
+    name: nullService3
+    templateName: 'null resource 3'
     needs:
       - childService
 settings:
