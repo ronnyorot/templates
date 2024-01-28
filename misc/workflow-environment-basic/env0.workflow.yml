@@ -5,4 +5,4 @@ environments:
   rootService2:
     name: nullService2
     templateName: 'null resource2'
-    needs: [nullService2]
+    needs: [rootService1]
